@@ -4,7 +4,7 @@ A simple dApp to demonstrate token-based voting on a blockchain.
 The application is developed using NestJS as the backend framework and Next.js as the frontend framework.
 The contracts are deployed at the Mumbai tesnet.
 
-
+Here are several steps to run this dApp:
 1. deploy the MyERC20Vote contract using hardhat script (see the tokenized-ballot repo).
 2. after the token contract is deployed, find the contract address and put it into the .env file both on the frontend and backend. 
 3. run the frontend using this command: 
